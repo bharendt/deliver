@@ -58,6 +58,7 @@ run() {
   git_clean_remote
   git_submodules
   authorize_release_store_on_build_host
+  s3_requirements
   erlang_get_and_update_deps
   erlang_clean_compile
   erlang_generate_release
